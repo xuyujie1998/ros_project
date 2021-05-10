@@ -10,7 +10,7 @@ from geometry_msgs.msg import Twist
 
 class ObstacleAvoidance:
     def __init__(self):
-        print("================================= CREATED ObstacleAvoidance CLASS =================================")
+        # print("================================= CREATED ObstacleAvoidance CLASS =================================")
         self.D_MAX = 1.0     # MAX_OBSTACLE_DISTANCE detection
 
         self.LV_MIN = 0.2     # MIN_LINEAR_VELOCITY
